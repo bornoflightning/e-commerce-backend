@@ -28,7 +28,7 @@
 <a name = 'description' /></a>
 ### Descritpion
 
-    this program has routes that are connected with models to update data. The routes provide info on an API with details about products which can be accessed with get and post requestess
+    this program has routes that are connected with models to update data. The routes provide info on an API with details about products which can be accessed with get and post requests
 
 
 <a name = 'installation' /></a>

@@ -58,10 +58,10 @@ router.delete('/:id', async (req, res) => {
       where: { id: req.params.id }
     });
     if (!deleteCategory) {
-      res.status(404).json({ message: 'There is no category9 assigned to the id that you provided' });
+      res.status(404).json({ message: 'There is no category assigned to the id that you provided' });
       return;
     }
-    res.status(200).json(deleteCategory);
+    res.status(200).json({message: 'You succesfully deleted the category'});
   } catch (error) {
     res.status(500).json("There was an error, here are the details: " + error);
   }

@@ -60,7 +60,7 @@ try {
     res.status(404).json({message : 'The product requested was not found, please try again with the correct info'});
     return;
   }
-  res.status(200).json(deleteTag);
+  res.status(200).json({message: 'You succesfully deleted the tag'});
 } catch (error) {
   res.status(500).json("There was an error, here are the details: " + error);
 }
